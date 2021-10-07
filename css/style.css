@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:red;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+
+a{
+    font-weight: bold;
+    color: salmon;
+    text-decoration: none; /*Supprimer la barre sous le lien*/
+}
+
+/*Changer caractéristiques au survol*/
+a:hover {
+    color: red;
+}
+
+p::first-line{
+    color: green;
+}
+
+
+
+p{
+    color: blue;
+    text-align: justify;
+}
+
+p::first-letter{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
