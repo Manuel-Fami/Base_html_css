@@ -7,8 +7,25 @@ h1 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 5px;
+    border: 2px solid black ; /* largeur type couleur */
+    border-radius: 5px 0px 10px 5px;
+    box-shadow: 6px 6px;
 }
 
+/*----- Barre de Navigation -----*/
+
+nav{
+    background-color: burlywood;
+}
+
+/*---- puces ----- */
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px 5px 2px 2px ;
+}
+
+/* ----- liens ------ */
 a{
     font-weight: bold;
     color: salmon;
@@ -23,8 +40,6 @@ a:hover {
 p::first-line{
     color: green;
 }
-
-
 
 p{
     color: blue;
